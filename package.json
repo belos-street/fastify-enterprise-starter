@@ -3,6 +3,13 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "bun run --watch src/server.ts",
+    "start": "bun run src/server.ts",
+    "db:push": "bunx prisma db push",
+    "db:generate": "bunx prisma generate",
+    "db:studio": "bunx prisma studio"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "prisma": "^7.7.0"
@@ -23,7 +30,7 @@
     "@fastify/swagger": "^9.7.0",
     "@fastify/swagger-ui": "^5.2.6",
     "@fastify/under-pressure": "^9.0.3",
-    "@prisma/client": "^7.7.0",
+    "@prisma/client": "6",
     "bullmq": "^5.75.2",
     "fastify": "^5.8.5",
     "fastify-plugin": "^5.1.0",

@@ -17,7 +17,7 @@
         "@fastify/swagger": "^9.7.0",
         "@fastify/swagger-ui": "^5.2.6",
         "@fastify/under-pressure": "^9.0.3",
-        "@prisma/client": "^7.7.0",
+        "@prisma/client": "6",
         "bullmq": "^5.75.2",
         "fastify": "^5.8.5",
         "fastify-plugin": "^5.1.0",
@@ -109,9 +109,7 @@
 
     "@pinojs/redact": ["@pinojs/redact@0.4.0", "https://registry.npmmirror.com/@pinojs/redact/-/redact-0.4.0.tgz", {}, "sha512-k2ENnmBugE/rzQfEcdWHcCY+/FM3VLzH9cYEsbdsoqrvzAKRhUZeRNhAZvB8OitQJ1TBed3yqWtdjzS6wJKBwg=="],
 
-    "@prisma/client": ["@prisma/client@7.7.0", "https://registry.npmmirror.com/@prisma/client/-/client-7.7.0.tgz", { "dependencies": { "@prisma/client-runtime-utils": "7.7.0" }, "peerDependencies": { "prisma": "*", "typescript": ">=5.4.0" }, "optionalPeers": ["prisma", "typescript"] }, "sha512-5Ar4OsZpJ54s21sy5oDNNW9gQtd4NuxCaiM7+JDTOU07D6VvlpLjYzAVCMB1+JzokN+08dAVomlx+b7bhJd3ww=="],
-
-    "@prisma/client-runtime-utils": ["@prisma/client-runtime-utils@7.7.0", "https://registry.npmmirror.com/@prisma/client-runtime-utils/-/client-runtime-utils-7.7.0.tgz", {}, "sha512-BLyd0UpFYOtyJFTHm7jS9vesHW7P83abibodQMiIofqjBKzDHQ1VAsQkdfvXyYDkPlONPfOTz7/rv3x/+CQqvQ=="],
+    "@prisma/client": ["@prisma/client@6.19.3", "https://registry.npmmirror.com/@prisma/client/-/client-6.19.3.tgz", { "peerDependencies": { "prisma": "*", "typescript": ">=5.1.0" }, "optionalPeers": ["prisma", "typescript"] }, "sha512-mKq3jQFhjvko5LTJFHGilsuQs+W+T3Gm451NzuTDGQxwCzwXHYnIu2zGkRoW+Exq3Rob7yp2MfzSrdIiZVhrBg=="],
 
     "@prisma/config": ["@prisma/config@7.7.0", "https://registry.npmmirror.com/@prisma/config/-/config-7.7.0.tgz", { "dependencies": { "c12": "3.1.0", "deepmerge-ts": "7.1.5", "effect": "3.20.0", "empathic": "2.0.0" } }, "sha512-hmPI3tKLO2aP0Y5vugbjcnA9qqlfJndiT6ds4tw28U5hNHLWg+mHJEWAhjsSPgxjtmxhJ/EDIeIlyh+3Us0OPg=="],
 
